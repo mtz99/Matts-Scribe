@@ -4,3 +4,34 @@
 
 # LangGraph
 .langgraph_api/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables (never commit API keys!)
+.env
+.env.local
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# LangGraph / LangChain cache
+.langchain.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
